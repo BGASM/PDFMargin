@@ -4,6 +4,11 @@
 This app uses PyPDF2 to read an existing PDF and output a copy of it with enlarged margins.
 GUI was written in pyQT5, using pysides2.
 
+PDFMargin was made to help me quickly convert school PDFs so that I could take notes on them.
+It works for me, I thought it would be nice to share. Understand that this app was made in a day and will most likely never be updated. There are surely bugs.
+**Annotations will not carry over unless you flatten them to your PDF first. This means comments will be lost, but highlights and ink can be flattened and saved.**
+**Bookmarks also will not carry over.** That sucks, I know. I couldn't figure it out and I didn't want to spend more time on it when I should be studying.
+
 Use:
 - Margins are in inches, and on BOTH sides. 10" does not mean 10" across, it means your document's original size, plus 10" on either side.
 - You can enter decimals.
